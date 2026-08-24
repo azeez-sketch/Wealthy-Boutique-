@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Login — Wealthy Boutique."><title>Login | Wealthy Boutique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body><div class="announcement">FREE DELIVERY ON ORDERS OVER ₦50,000 <span>•</span> NATIONWIDE DELIVERY</div>
+<header class="header" id="header">
+  <a class="brand" href="index.html" aria-label="Wealthy Boutique home">
+    <span class="monogram">WB</span><span><strong>WEALTHY</strong><small>BOUTIQUE</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu" id="menuToggle">☰</button>
+  <nav class="nav" id="nav">
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#new">New Arrivals</a>
+    <a href="shop.html#collections">Collections</a><a href="about.html">About Us</a>
+    <a href="about.html#lookbook">Lookbook</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+    <button class="icon-btn" id="accountBtn" aria-label="Account">♙</button>
+    <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡</button>
+    <a class="cart-btn" href="cart.html" aria-label="Shopping cart">🛒 <b id="cartCount">0</b></a>
+  </div>
+</header><main>
+<section class="auth-page"><div class="auth-card"><a class="auth-brand" href="index.html"><span class="monogram">WB</span><strong>WEALTHY<br><small>BOUTIQUE</small></strong></a>
+<div class="auth-tabs"><button class="active" data-auth="login">Login</button><button data-auth="register">Create Account</button></div>
+<form id="loginForm"><p class="eyebrow">WELCOME BACK</p><h1>Sign in</h1><label>Email<input type="email" required placeholder="you@example.com"></label><label>Password<input type="password" required placeholder="••••••••"></label><a href="#" class="forgot">Forgot password?</a><button class="btn btn-gold full">Login</button><small id="loginMsg"></small></form>
+<form id="registerForm" class="hidden"><p class="eyebrow">JOIN THE WEALTHY CLUB</p><h1>Create Account</h1><label>Full name<input required placeholder="Your name"></label><label>Email<input type="email" required placeholder="you@example.com"></label><label>Password<input type="password" required placeholder="Create a password"></label><button class="btn btn-gold full">Create Account</button><small id="registerMsg"></small></form>
+<p class="auth-note">By continuing, you agree to our terms and privacy policy.</p></div></section>
+</main><footer class="footer">
+  <div class="footer-brand"><div class="footer-logo">WB</div><h3>WEALTHY<br><span>BOUTIQUE</span></h3>
+    <p>Where Elegance Meets Confidence.</p><div class="socials"><span>◎</span><span>f</span><span>♪</span><span>◉</span></div>
+  </div>
+  <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#new">New Arrivals</a>
+    <a href="shop.html#collections">Collections</a><a href="about.html">About Us</a><a href="about.html#lookbook">Lookbook</a><a href="contact.html">Contact</a>
+  </div>
+  <div><h4>Customer Service</h4><a href="contact.html">FAQs</a><a href="contact.html">Delivery Information</a>
+    <a href="contact.html">Returns & Exchanges</a><a href="#">Terms & Conditions</a><a href="#">Privacy Policy</a>
+  </div>
+  <div class="newsletter"><h4>Stay in the Know</h4><p>Subscribe for special offers, new arrivals and style updates.</p>
+    <form id="newsletterForm"><input type="email" placeholder="Enter your email" required><button>Subscribe</button></form><small id="newsletterMsg"></small>
+  </div>
+  <div class="copyright">© 2026 Wealthy Boutique. All Rights Reserved. <span>We accept: VISA • Mastercard • Verve</span></div>
+</footer>
+<a class="whatsapp-float" target="_blank" rel="noopener" href="https://wa.me/2348039090007?text=Hello%20Wealthy%20Boutique%2C%20I%27d%20like%20to%20make%20an%20inquiry." aria-label="Chat on WhatsApp">◉</a>
+<script src="script.js"></script></body></html>

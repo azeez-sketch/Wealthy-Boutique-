@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Shop — Wealthy Boutique."><title>Shop | Wealthy Boutique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body><div class="announcement">FREE DELIVERY ON ORDERS OVER ₦50,000 <span>•</span> NATIONWIDE DELIVERY</div>
+<header class="header" id="header">
+  <a class="brand" href="index.html" aria-label="Wealthy Boutique home">
+    <span class="monogram">WB</span><span><strong>WEALTHY</strong><small>BOUTIQUE</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="Open menu" id="menuToggle">☰</button>
+  <nav class="nav" id="nav">
+    <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#new">New Arrivals</a>
+    <a href="shop.html#collections">Collections</a><a href="about.html">About Us</a>
+    <a href="about.html#lookbook">Lookbook</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+    <button class="icon-btn" id="accountBtn" aria-label="Account">♙</button>
+    <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡</button>
+    <a class="cart-btn" href="cart.html" aria-label="Shopping cart">🛒 <b id="cartCount">0</b></a>
+  </div>
+</header><main>
+<section class="page-hero"><p class="eyebrow">THE WEALTHY EDIT</p><h1>Shop Our Collection</h1>
+<p>Discover refined pieces selected for modern men and women.</p></section>
+<section class="section" id="collections">
+  <div class="section-heading"><p class="eyebrow">CURATED FOR YOU</p><h2>Shop by Collection</h2><span></span></div>
+  <div class="collection-grid">
+    <a class="collection-card" href="#shop" style="--bg:url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=85')"><div><h3>Women's<br>Fashion</h3><p>Elegant dresses, gowns, casual wear & more</p><span>Shop Now</span></div></a>
+    <a class="collection-card" href="#shop" style="--bg:url('https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=1000&q=85')"><div><h3>Men's<br>Fashion</h3><p>Corporate wear, casual outfits & essentials</p><span>Shop Now</span></div></a>
+    <a class="collection-card" href="#shop" style="--bg:url('https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1000&q=85')"><div><h3>Fashion<br>Accessories</h3><p>Bags, shoes, jewelry, sunglasses & more</p><span>Shop Now</span></div></a>
+    <a class="collection-card" href="#new" style="--bg:url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85')"><div><h3>New<br>Arrivals</h3><p>Latest fashion trends, updated regularly</p><span>Shop Now</span></div></a>
+  </div>
+</section>
+<section class="section shop-section" id="shop">
+  <div class="section-heading"><p class="eyebrow">SHOP THE EDIT</p><h2>Featured Pieces</h2><span></span></div>
+  <div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="women">Women</button><button class="filter" data-filter="men">Men</button><button class="filter" data-filter="accessories">Accessories</button></div>
+  <div class="products" id="productGrid"></div>
+  <button class="btn btn-dark load-more" id="loadMore">View All Products</button>
+</section>
+<section class="split-banner" id="new"><div class="split-image"></div><div class="split-copy"><p class="eyebrow">NEW ARRIVALS</p><h2>Dress Like<br>You Mean It.</h2><p>Statement pieces, refined essentials and accessories made to elevate every entrance.</p><a href="#shop" class="btn btn-gold">Explore New Arrivals</a></div></section>
+</main><footer class="footer">
+  <div class="footer-brand"><div class="footer-logo">WB</div><h3>WEALTHY<br><span>BOUTIQUE</span></h3>
+    <p>Where Elegance Meets Confidence.</p><div class="socials"><span>◎</span><span>f</span><span>♪</span><span>◉</span></div>
+  </div>
+  <div><h4>Quick Links</h4><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="shop.html#new">New Arrivals</a>
+    <a href="shop.html#collections">Collections</a><a href="about.html">About Us</a><a href="about.html#lookbook">Lookbook</a><a href="contact.html">Contact</a>
+  </div>
+  <div><h4>Customer Service</h4><a href="contact.html">FAQs</a><a href="contact.html">Delivery Information</a>
+    <a href="contact.html">Returns & Exchanges</a><a href="#">Terms & Conditions</a><a href="#">Privacy Policy</a>
+  </div>
+  <div class="newsletter"><h4>Stay in the Know</h4><p>Subscribe for special offers, new arrivals and style updates.</p>
+    <form id="newsletterForm"><input type="email" placeholder="Enter your email" required><button>Subscribe</button></form><small id="newsletterMsg"></small>
+  </div>
+  <div class="copyright">© 2026 Wealthy Boutique. All Rights Reserved. <span>We accept: VISA • Mastercard • Verve</span></div>
+</footer>
+<a class="whatsapp-float" target="_blank" rel="noopener" href="https://wa.me/2348039090007?text=Hello%20Wealthy%20Boutique%2C%20I%27d%20like%20to%20make%20an%20inquiry." aria-label="Chat on WhatsApp">◉</a>
+<script src="script.js"></script></body></html>
